@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: yellow;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 360px;
+  border-radius: 55%;
+}
+.navbar{
+	float: left;
+}
+.navbar a {
+	height: auto;
+	float:left;
+	width:25%;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	color: black;
+	text-decoration: none;
+	font-size: 22px;
+	text-align: center;
+	font-style: bold;
+	font-family: Abel, sans-serif;
+}
+.navbar a:hover{
+	background-color: #111;
+	color: yellow;
+}
+.navbar a.active {
+	text-decoration: underline;
+}
+
+#Home{
+	float: left;
+	width: 70%;
+	padding-top: 15%;
+	padding-left: 8%;
+	padding-right: 15%;
+	text-align: left;
+}
+h1{
+	font-size: 2.5em;
+	padding-bottom: 0px;
+}
+#Home > p{
+	padding-top: 0px;
+
+}
